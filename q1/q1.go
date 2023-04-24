@@ -26,13 +26,13 @@ func CalculateDiscount(currentPurchase float64, purchaseHistory []float64) (floa
 	}
 	return disconto, nil
 }
-func main() {
-	numero := 1500.0
-	slice := []float64{800, 1200, 700, 1500}
-	resultado, err := CalculateDiscount(numero, slice)
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(resultado)
-	}
-}
+//func main() {
+//	numero := 1500.0
+//	slice := []float64{800, 1200, 700, 1500}
+//	resultado, err := CalculateDiscount(numero, slice)
+//	if err != nil {
+//		fmt.Println(err)
+//	} else {
+//		fmt.Println(resultado)
+//	}
+//}
